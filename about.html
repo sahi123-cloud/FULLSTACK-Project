@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+    <style>
+        /* Reset some default styles */
+        .navbar {
+    background-color: #333;
+    height: 40px;
+    color: white;
+    padding: 5px ;
+    position: fixed; /* Stick the navigation bar to the top */
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 36px;
+    margin-right: 10px; /* Add spacing between icon and text */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+a:hover {
+    color: orangered; /* Change color on hover */
+}
+
+/* Style the navigation links */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Responsive design - adjust as needed */
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+
+    ul {
+        display: block;
+        text-align: center;
+    }
+
+    ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+section{
+    margin-top: 70px;
+}
+h1{
+    text-align: center;
+    font: bold;
+    font-family: 1000;
+    font-size: 30px;
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav">
+                <i class="icon" style="color: orangered;">B</i>
+                <a href="#">loggerr</a>
+            </div>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="editor.html">EDITOR</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="login.html">LOG OUT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+    <h1>ABOUT US</h1>
+    <p>Welcome to our blog<br><br> We're passionate about sharing information and ideas on various topics<br><br>Welcome to Blogger, where we celebrate the world's most delectable dishes and culinary adventures.<br><br> </p>
+        </section>
+    <footer>
+        <!-- Add your website footer here -->
+    </footer>
+</body>
+</html>
